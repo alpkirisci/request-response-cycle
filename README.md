@@ -23,8 +23,8 @@ sporkayit.com/dashboard'a girelim
 * HTTP GET gönderildi, sunucu baktı ilişkili html css js i de attı, alındı 200 OK
 * html load lanıyor üyelerin listelenmesi lazım şöyle bir kodumuz vardı:
     <div hx-trigger="load" hx-get="/views/members_table"></div>
-* backend sunucumuz bu htmx in çalıştıracağı GET i url_patterns listesine göre *handle*lar:
-    database'den üyeleri almak için istekte bulunur yani backend sunucumuz bu iş için *client* rolünü alır
+* htmx "/views/members_table" pathinde bir GET isteyecek, backend sunucumuz ise bu isteği url_patterns listesine göre *handle*lar, bu örnek için:
+    backend sunucumuz, database'den üyeleri almak için istekte bulunur yani backend sunucumuz bu iş için *client* rolünü alır
 * ###### yani bir cihaz hem sunucu hem client olabilir.
 
 ### Client Server Cycle pek çok protokolde kullanılır, bazıları:
