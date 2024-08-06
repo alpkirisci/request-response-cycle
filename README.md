@@ -1,4 +1,4 @@
-# Response Request Cycle
+# Request Response Cycle
 
 ### Client-Server Mimarisi olan tüm etkileşimler Request-Response Cycle'ın bir parçasıdır
 
